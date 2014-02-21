@@ -1,0 +1,28 @@
+{
+  "name": "appfel",
+  "version": "0.0.1",
+  "description": "iOS App Parser.",
+  "main": "server.js",
+  "scripts": {
+  },
+  "keywords": [
+    "appfel",
+    "bplist",
+    "app",
+    "ios",
+    "plist",
+    "parser"
+  ],
+  "author": "Benjamin Philipp <bp@7bp.de>",
+  "license": "WTF",
+  "dependencies": {
+    "formidable": "*",
+    "multipart": "*",
+    "posix": "*",
+    "q": "*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/7bp/appfel.git"
+  }
+}
