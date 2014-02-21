@@ -9,7 +9,6 @@ var app = module.exports = express();
 // Configuration
 app.configure(function() {
   app.set('views', __dirname + '/views');
-  app.set('view options', { layout: true });
   app.set('view engine', 'jade');
   app.use(express.favicon());
   app.use(express.bodyParser());
@@ -19,7 +18,6 @@ app.configure(function() {
 
 app.configure('development', function(){
   app.use(express.errorHandler({ dumpExceptions: true, showStack: true }));
-  app.set('view options', { pretty: true });
 });
 
 app.configure('production', function(){
