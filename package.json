@@ -16,10 +16,9 @@
   "author": "Benjamin Philipp <bp@7bp.de>",
   "license": "WTF",
   "dependencies": {
-    "formidable": "*",
-    "multipart": "*",
-    "posix": "*",
-    "q": "*"
+    "bplist-parser": "",
+    "express": "",
+    "jade": ""
   },
   "repository": {
     "type": "git",
